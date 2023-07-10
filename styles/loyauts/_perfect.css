@@ -46,6 +46,7 @@
 }
 
 .perfect .card .text .buttons button {
+    width: 14rem;
     padding: 1.6rem 3.2rem;
     background: var(--global-color);
     color: #fff;
