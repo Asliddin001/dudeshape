@@ -1,0 +1,106 @@
+.perfect {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+}
+
+.perfect .card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 5.4rem;
+}
+
+.perfect .card .text {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+.perfect .card .text .headers {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.perfect .card .text .headers h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 7rem;
+}
+
+.perfect .card .text .headers p {
+    font-size: 2rem;
+    color: var(--p-color);
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+.perfect .card .text .headers .stars{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+.perfect .card .text .buttons {
+    margin-top: 5rem;
+}
+
+.perfect .card .text .buttons button {
+    padding: 1.6rem 3.2rem;
+    background: var(--global-color);
+    color: #fff;
+}
+.perfect .card .text h1{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+.perfect .card .text p{
+    color: var(--p-color);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.perfect .card:nth-child(2) {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.perfect .card:nth-child(2) .image img {
+    width: 100%;
+}
+
+.quote {
+    display: flex;
+}
+
+.quote p {
+    font-size: 2rem;
+    color: var(--p-color);
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+.quote .quote-start{
+    margin-left: -1.7rem;
+}
+.quote .quote-end{
+    position: absolute;
+}
+.perfect .card .text .buttons .arrows{
+    width: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.perfect .card .text .buttons .arrows span .arrow-left{
+    position: absolute;
+    margin-top: .8rem;
+    margin-left: .8rem;
+}
+.perfect .card .text .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

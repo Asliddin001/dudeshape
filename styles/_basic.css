@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 144rem;
+  padding: 0 10rem;
+  margin: 0 auto;
+}
+
+:root {
+  --global-color: #402F2C;
+  --first-color: #000;
+  --second-color: #222;
+  --p-color: #555;
+  --a-color: #E4E4E4;
+  --header-color: #F9F6F5;
+  --footer-color: #FAFAFA;;
+}
+#hr{
+  color:  #DDD;
+}

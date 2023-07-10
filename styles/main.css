@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+@import "./_basic.css";
+
+@import "./loyauts/_navbar.css";
+@import "./loyauts/_header.css";
+@import "./loyauts/_logos.css";
+@import "./loyauts/_popular-product.css";
+@import "./loyauts/_statistics.css";
+@import "./loyauts/_perfect.css";
+@import "./loyauts/_footer.css";

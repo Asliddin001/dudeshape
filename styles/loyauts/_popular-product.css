@@ -1,0 +1,110 @@
+.popular {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular .txt {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.popular .txt .headers {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.popular .txt .headers h1 {
+    font-size: 5.6rem;
+    font-weight: 600;
+    line-height: 7rem;
+}
+
+.popular .txt .headers p {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+}
+
+.popular .txt .links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.popular .txt .links span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8rem;
+    margin-top: 4rem;
+}
+.popular .txt .links span a{
+    text-decoration: underline;
+    color: var(--first-color);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+.popular .boxs{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    gap: 4.2rem;   
+    margin-top: 6rem;
+}
+.popular .boxs .box{
+    border: 1px solid rgba(104, 90, 82, 0.19);  
+    width: 60rem;
+}
+.popular .boxs .box .image img{
+    width: 100%;
+}
+.popular .boxs .box .text{
+    padding: 2rem 3.2rem 3.2rem 3.2rem;
+}
+.popular .boxs .box .text .headers h1{
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: var(--first-color);
+}
+.popular .boxs .box .text .headers p{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    color: var(--p-color);
+}
+.popular .boxs .box .text .prices{
+    margin-top: 4.7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.popular .boxs .box .text .prices .buttons{
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 2.4rem;
+}
+.popular .boxs .box .text .prices .buttons button{
+    padding: 1.6rem 3.2rem;
+}
+.popular .boxs .box .text .prices .buttons button:nth-child(1){
+    background: var(--global-color);
+    color: #fff;
+}
+.popular .boxs .box .text .prices .buttons button:nth-child(2){
+    border: 1px solid rgba(104, 90, 82, 0.46);
+    background: #fff;
+    color: var(--global-color);
+}
+.popular .boxs .box .text .prices .price{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
